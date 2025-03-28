@@ -2,7 +2,7 @@ import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
 const form = document.querySelector('.form');
-const delayinput = form.querySelector('input[name="delay"]');
+const delayinput = form.querySelector('.delay');
 const radioFulfilled = form.querySelector('input[value="fulfilled"]');
 const radioRejected = form.querySelector('input[value="rejected"]');
 

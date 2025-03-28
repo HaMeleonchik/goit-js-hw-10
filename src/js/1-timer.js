@@ -13,7 +13,9 @@ const spanHours = document.querySelector('[ data-hours]');
 const spanMinutes = document.querySelector('[ data-minutes]');
 const spanSeconds = document.querySelector('[ data-seconds]');
 
-startBtn.disabled = true;
+if (startBtn) {
+  startBtn.disabled = true;
+}
 
 let userSelectedDate;
 let timerid = null;
