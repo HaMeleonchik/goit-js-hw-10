@@ -13,9 +13,7 @@ const spanHours = document.querySelector('[ data-hours]');
 const spanMinutes = document.querySelector('[ data-minutes]');
 const spanSeconds = document.querySelector('[ data-seconds]');
 
-if (startBtn) {
-  startBtn.disabled = true;
-}
+startBtn.disabled = true;
 
 let userSelectedDate;
 let timerid = null;
@@ -35,7 +33,7 @@ const options = {
         title: 'Error',
         titleColor: 'white',
         backgroundColor: 'red',
-        iconUrl: './img/error.svg',
+        iconUrl: 'img/error.svg',
         message: 'Please choose a date in the future',
         messageColor: 'white',
         position: 'topRight',
