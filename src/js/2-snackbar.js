@@ -32,7 +32,7 @@ function Create(event) {
         messageColor: 'white',
         position: 'topRight',
         close: false,
-        iconUrl: '/success.svg',
+        iconUrl: './success.svg',
       })
     )
     .catch(error =>
@@ -44,7 +44,7 @@ function Create(event) {
         messageColor: 'white',
         position: 'topRight',
         close: false,
-        iconUrl: '/error.svg',
+        iconUrl: './error.svg',
       })
     );
 }
